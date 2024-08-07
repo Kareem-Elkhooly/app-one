@@ -64,7 +64,7 @@
 }
 .withDetails{
   border-bottom: 1px solid var(--second-color-plus);
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   margin-bottom: 2px;
   width: 100%;
 }
@@ -80,9 +80,6 @@
   justify-content: space-evenly;
   align-items: center;
   width: fit-content;
-  margin-top: -7px;
-  /* margin-left: auto;
-  margin-right: auto; */
   background-color: var(--second-color);
   border-radius: var(--border-radios);
 }
