@@ -1,0 +1,198 @@
+.backIcon {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: var(--border-radios);
+    color: var(--text);
+}
+.backIcon svg {
+    vertical-align: bottom!important;
+}
+.backIcon .svg-inline--fa {
+    vertical-align: unset;
+}
+.backIcon:hover {
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+.loginLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--six-color);
+    border-radius: var(--border-radios);
+    align-items: center;
+    padding: 6px 10px;
+    margin-top: 10px;
+}
+.nav.nav-pills.nav-justified {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.loginLinks .nav-link {
+    background-color: transparent;
+    padding: 4px 8px!important;
+    border-radius: var(--border-radios);
+    color: var(--text);
+    width: max-content !important;
+}
+.loginLinks .nav-link.current {
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+.loginLinks .nav-link:hover, .loginLinks .nav-link:focus {
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+.tab-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%!important;
+    font-size: 15px;
+    min-height: calc(100vh - 135px);
+}
+@media (max-width: 640px) {
+    .tab-content {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .tab-content {
+        justify-content: center;
+    }
+}
+.loginpic {
+    width: 600px;
+    display: block;
+    margin-left: -30px;
+}
+@media (max-width: 768px) {
+    .loginpic {
+        display: none;
+    }
+}
+.mainFormTitle {
+    font-size: 17px;
+    text-align: center;
+    background-color: var(--second-color-plus);
+    border-radius: var(--border-radios);
+    color: var(--six-color);
+    padding: 10px;
+}
+.tab-content form {
+    min-width: 278px;
+}
+.form-label  {
+    margin-bottom: 0;
+}
+.tab-content form .form-control{
+    margin-bottom: 10px;
+}
+.phoneInput {
+    margin-bottom: 10px;
+}
+.react-tel-input .form-control  {
+    height: unset;
+    width: 100% !important;
+    border-radius: var(--border-radios);
+    border: 1px solid var(--second-color-plus) !important;
+    line-height: 24px !important;
+}
+.react-tel-input .flag-dropdown {
+    left: 0px !important;
+    border-color: var(--second-color-plus) !important;
+    background-color: var(--second-color) !important;
+}
+.react-tel-input .selected-flag,.react-tel-input .flag-dropdown {
+    border-radius: 0.28rem 0 0 0.28rem !important;
+}
+.form-control {
+    font-size: 15px !important;
+}
+@media (max-width: 640px) {
+    .form-control {
+        font-size: 14px !important;
+    }
+}
+.form-control:has(.react-tel-input :focus), .form-control:focus {
+    border: 1px solid var(--five-color);
+    box-shadow: 0 0 0 0.10rem #6096bae1;;
+}
+.form-control:has(input.isInvalid), .isInvalid:not(#mobile), .isInvalid + .flag-dropdown  {
+    border: 1px solid var(--therd-color-plus) !important;
+    box-shadow: none;
+}
+.form-control:has(input.isInvalid:focus), .isInvalid:not(#mobile):focus {
+    border: 1px solid var(--therd-color);
+    box-shadow: 0 0 0 0.10rem #e85d5dd4;
+}
+.formInput:has(input.isInvalid) {
+    position: relative;
+}
+.formInput:has(input.isInvalid) .form-label, #lableForMobile.lableForMobileRed {
+    color: var(--therd-color-plus);
+}
+.formInput:has(input.isInvalid) .form-label::after, #lableForMobile.lableForMobileRed::after {
+    content: "\2731";
+    font-size: 9px;
+    color: var(--therd-color-plus);
+    margin-left: 2px;
+    vertical-align: super;
+}
+.form-check .form-check-label {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.form-check-input[type=checkbox]{
+    background-color: transparent;
+    cursor: pointer;
+}
+.form-check-input:checked {
+    background-color: var(--five-color);
+    border: var(--five-color);
+}
+.form-check-input:focus {
+    box-shadow: none;
+}
+#errorLogin {
+    color: var(--therd-color);
+    margin: 0 0 15px;
+    text-align: center;
+}
+.tab-content form #submit{
+    padding: 4px 15px!important;
+    background-color: var(--five-color);
+    border: none;
+}
+
+.tab-content form #submit:focus, .tab-content form #submit:hover{
+    background-color: var(--five-color-plus);
+    border: none;
+}
+.inputsConatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+@media (max-width: 640px) {
+    .inputsConatiner {
+        gap: 0px;
+    }
+}
+@media (max-width: 426px) { 
+    .inputsConatiner {
+        display: block;
+    }
+}
+.footer-copyright-postion {
+    border-radius: var(--border-radios);
+    margin-bottom: 10px;
+}

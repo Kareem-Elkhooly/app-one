@@ -1,0 +1,121 @@
+.card-img-top {
+  align-self: center;
+}
+.cardProduct {
+  display: flex;
+  gap: 1px;
+  justify-content: space-between;
+  transition: var(--main-transition);
+  border-radius: var(--border-radios);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--second-color-plus);
+}
+.starIcon {
+  color: var(--star-color);
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.productTitle {
+  line-height: 1.5;
+}
+.card-body.card-title.h5 {
+  font-size: 16px;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 0 !important;
+  padding: 10px 16px 5px !important;
+  color: var(--main-color);
+}
+.card-body .productTitle {
+  text-decoration: none;
+  color: var(--main-color) !important;
+}
+.price span, .price path {
+  color: var(--main-color) !important;
+}
+.elem {
+  transition: var(--main-transition);
+  width: 100%;
+  margin-top: 5px;
+}
+.descriptionHeight {
+  font-size: 15px;
+  overflow: hidden;
+  line-height: 1.3;
+  height: 37px;
+  display: -webkit-box;
+  color: var(--main-color-plus) !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.card-body.card-title::-webkit-scrollbar {
+  width: 5px;
+}
+.card-body.card-title::-webkit-scrollbar-track {
+  background: var(--second-color);
+}
+.card-body.card-title::-webkit-scrollbar-thumb {
+  background: var(--main-color-plus);
+}
+.card-body.card-title::-webkit-scrollbar-thumb:hover {
+  background: var(--main-color);
+}
+.footerOfCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px 0 3px;
+}
+.addAndUp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 8.1px;
+  margin-left: 0px;
+}
+.add-to-cart {
+  font-size: 15px !important;
+  padding: 4px 11px 4px 16px !important;
+  display: flex;
+  align-self: center;
+  background-color: var(--for-color);
+  color: var(--text);
+  border: 0.5px solid var(--for-color);
+  border-radius: 3px var(--border-radios) var(--border-radios) 3px;
+  padding-left: 10px;
+}
+.add-to-cart:hover {
+  background-color: var(--second-color);
+  border: 0.5px solid var(--second-color-plus)!important;
+  color: var(--main-color);
+}
+.add-to-cart:active {
+  background-color: var(--second-color) !important;
+  border: 0.5px solid var(--second-color-plus) !important;
+  color: var(--main-color);
+}
+@media (max-width: 640px) {
+  .add-to-cart {
+    font-size: 14px !important;
+  }
+}
+.cardUp {
+  cursor: pointer;
+  padding: 3px;
+  border-radius: var(--border-radios);
+}
+.cardUp:hover {
+  background-color: var(--second-color);
+}
+span.MuiButtonBase-root{
+  margin-top: 2px;
+  padding: 7px;
+  color: var(--therd-color)!important;
+}
+span.MuiButtonBase-root:hover {
+  background-color: transparent;
+}

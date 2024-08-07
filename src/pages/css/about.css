@@ -1,0 +1,46 @@
+.about {
+  color: var(--main-color);
+}
+.aboutCardContain {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr;
+  margin-bottom: 80px;
+}
+.containerOfAboutCard {
+  color: var(--main-color);
+  flex-direction: row !important;
+  box-shadow: var(--box-shadow);
+  align-items: center;
+  border-radius: var(--border-radios) !important;
+}
+@media (max-width: 992px) {
+  .containerOfAboutCard {
+    flex-direction: column !important;
+  }
+}
+.muteText {
+  color: var(--main-color-plus);
+  font-size: 16px;
+  margin-top: 5px;
+}
+.muteText span {
+  color: var(--text);
+  font-size: 17px;
+  background-color: var(--five-color);
+  border-left: 5px solid var(--five-color) ;
+  border-radius: var(--border-radios);
+}
+.textOfContact {
+  font-size: 15px;
+  margin: 8px 0;
+  color: var(--main-color-plus);
+}
+.mailTo {
+  color: var(--main-color-plus);
+}
+.mailTo:hover {
+  color: var(--main-color);
+  text-decoration: none;
+}

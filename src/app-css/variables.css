@@ -1,0 +1,27 @@
+:root {
+    /* colors */
+    --main-color : #3C3C3C;
+    --main-color-plus :#6e6e6e ;
+    --second-color : #f4f4f4;
+    --second-color-plus : #e8e8e8;
+    --body-back : #FFFFFF;
+    --therd-color : #e85d5d;
+    --therd-color-plus : #df5959;
+    --for-color : #66a385;
+    --for-color-plus : #5d9679;
+    --five-color :  #6096BA;
+    --five-color-plus : #5788a8;
+    --six-color : #274C77;
+    --star-color: #F7C36F;
+    --text :white;
+    --text-gray: #8C8D8B;
+    /* box shadow */
+    --box-shadow: unset;
+    --box-shadow-plus: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* border radios */
+    --border-radios : 0.375rem;
+    /* border */
+    --border :2.5px solid;
+    /* transtion */
+    --main-transtion : all linear 0.2s;
+}

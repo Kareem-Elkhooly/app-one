@@ -1,0 +1,23 @@
+li.page-item.btn-group.disabled a.page-link.btn.btn-primary {
+    background: var(--five-color-plus);
+    color: var(--second-color);
+}
+li.page-item.btn-group.active a.page-link.btn.btn-primary {
+    background-color: var(--six-color);
+    border: none;
+    color: var(--text);
+    padding: 6px 10px!important;
+}
+li.page-item.btn-group a.page-link.btn.btn-primary {
+    background-color: var(--five-color);
+    border: none;
+    color: var(--text);
+    margin: 0 3px;
+    transition: var(--main-transtion);
+}
+li.page-item.btn-group a.page-link.btn.btn-primary:hover {
+    padding: 6px 10px!important;
+}
+li.page-item.btn-group a.page-link.btn.btn-primary:focus {
+    box-shadow: var(--box-shadow);
+}

@@ -1,0 +1,30 @@
+.containerOfDetailsCard {
+  min-height: 300px;
+  color: var(--main-color);
+  box-shadow: var(--box-shadow);
+}
+.date {
+  font-size: 12px;
+}
+.iamHere {
+  height: 50px !important;
+}
+input[placeholder="Type Your Comment Here"]{
+  color: var(--main-color);
+}
+input[placeholder="Type Your Comment Here"]::placeholder{
+  color: var(--main-color-plus);
+}
+input[placeholder="Type Your Comment Here"]:focus{
+  box-shadow: 0 0 0 0.13rem var(--five-color);
+  border-color: var(--five-color)!important;
+}
+.noComment{
+  color: var(--main-color-plus) !important;
+}
+.input-group #btnGroupAddon:hover {
+  background-color: var(--second-color);
+}
+.input-group #btnGroupAddon svg{
+  color: var(--six-color);
+}

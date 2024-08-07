@@ -1,0 +1,100 @@
+.navBar {
+  background-color: var(--six-color) !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.navbar-nav {
+  gap: 8px;
+}
+.navbar-brand {
+  color: var(--text);
+}
+.navOutOfDropdown {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.MuiBadge-badge{
+  background-color: var(--five-color);
+  color: var(--text)!important;
+  box-shadow: var(--box-shadow-plus);
+  height: fit-content!important;
+  min-width: unset!important;
+  padding: 3px 5px!important;
+}
+.cart-icon {
+  text-decoration: none !important;
+  color: var(--text);
+}
+.nav-bar-direction {
+  margin-left: auto !important;
+}
+.nav-link{
+  background-color: transparent;
+  padding: 4px 8px!important;
+  border-radius: var(--border-radios);
+  color: var(--text);
+  width: max-content !important;
+}
+.nav-link:hover, .nav-link:focus {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+.nav-link.login {
+  background-color: var(--for-color-plus);
+  border-radius: var(--border-radios);
+  color: var(--text);
+  padding: 4px;
+}
+.nav-link.login:hover {
+  background-color: var(--for-color);
+  border-radius: var(--border-radios);
+  color: var(--text);
+}
+@media (max-width: 992px) {
+  .nav-bar-direction {
+    margin-right: auto !important;
+  }
+}
+/* .userDropdown {
+  background-color: var(--second-color)!important;
+  border-radius: var(--border-radios)!important;
+  height: 100% !important;
+  width: 100% !important;
+
+} */
+.userDropdownIcon {
+  background-color: transparent !important;
+  color: var(--text);
+  border: none;
+  padding: 0px 4px !important;
+}
+.userDropdownIcon::after {
+  content: "\2637";
+  border: none;
+  font-size: 20px !important;
+  vertical-align: -0.36em !important;
+}
+
+.userDropdownMenu[data-bs-popper] {
+  right:  0!important;
+  left: unset !important;
+  background-color: var(--text);
+  border: 1px solid var(--second-color-plus);
+}
+.userDropdownItem {
+  color: var(--main-color);
+}
+.userDropdownItem:hover {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+.userDropdownItem:focus {
+  background-color: var(--second-color-plus);
+  color: var(--main-color);
+}
+.userDropdownItem a {
+  text-decoration: none;
+  color: var(--main-color);
+}

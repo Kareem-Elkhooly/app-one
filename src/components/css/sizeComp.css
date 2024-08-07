@@ -1,0 +1,36 @@
+#demo-select-small {
+    padding: 5px 9px;
+}
+#demo-select-small-label {
+    top: -3px;
+}
+.Mui-focused {
+    color: var(--five-color)!important;
+}
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+    box-shadow: var(--box-shadow)!important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    font-size: 14px!important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+    background-color: var(--second-color)!important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:active {
+    background-color: var(--second-color)!important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:focus {
+    background-color: var(--second-color)!important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root .MuiOutlinedInput-notchedOutline {
+    border-color: var(--second-color-plus)!important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--five-color)!important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline:hover {
+    border-color: var(--five-color)!important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline:focus {
+    border-color: var(--five-color)!important;
+}

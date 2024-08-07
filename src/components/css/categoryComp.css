@@ -1,0 +1,177 @@
+.categoryNav{
+  background-color: var(--second-color);
+  padding: 6px 0 4px;
+  position: sticky;
+  top: 50px;
+  z-index: 80;
+}
+.categ-bg {
+  background-color: var(--body-back);
+  padding: 5px 0;
+  height: 46px;
+  position: sticky;
+  top: 50px;
+  z-index: 100;
+  margin-top: 30px;
+}
+.search {
+  font-size: 15px;
+  padding: 5px 8px 4px;
+  outline-width: 0;
+  background-color: white;
+  border: var(--second-color) 1px solid;
+  color: var(--main-color);
+}
+.search:focus {
+  background-color: rgb(252, 252, 252);
+  box-shadow: 0 0 0 0.1rem var(--five-color);
+  outline:  none;
+  border: var(--five-color) 1px solid;
+}
+.submit {
+  font-size: 15px;
+  color: var(--main-color);
+  padding: 4px 8px;
+  background-color: var(--second-color-plus);
+  border: 1px solid var(--second-color-plus);
+  cursor: pointer;
+  border-radius: var(--border-radios);
+  transition: var(--main-transtion);
+}
+.submit:hover{
+  color: var(--text);
+  border-radius: 5px;
+  background-color: var(--for-color);
+}
+.sortItem {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--main-color);
+}
+@media (max-width: 640px) {
+  .search, .submit, .sortItem,.Range .RangeTitle {
+    font-size: 14px;
+  }
+}
+.sortItem:active {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+.sortItem:hover {
+  background-color: var(--second-color);
+}
+.sortItem .doneIcon {
+  border-radius: 50%;
+  padding: 2px;
+  color: var(--main-color);
+  font-size: 20px;
+}
+.sortItem:has(.doneIcon) {
+  background-color: var(--second-color);
+}
+#dropdown-basic{
+  color: var(--main-color);
+}
+#dropdown-basic path{
+  color: var(--main-color)!important;
+}
+#dropdown-basic:active {
+  border-color: var(--second-color) !important;
+}
+.dropdown:focus-visible {
+  border: none!important;
+  outline: none!important;
+}
+#dropdown-basic.show{
+  border-color: transparent !important;
+  background-color: var(--second-color);
+}
+.hover {
+  background-color: transparent;
+}
+.hover:hover {
+  border-radius: 5px;
+  background-color: var(--second-color);
+}
+.categoryLink{
+  color: var(--main-color);
+  font-size: 14.5px;
+  text-decoration: none;
+}
+.Range {
+  padding: 15px 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 10px;
+  border-bottom: var(--border)  var(--second-color);
+}
+@media (max-width: 640px) {
+  .Range {
+    gap: 7px;
+  }
+}
+.Range .RangeTitle {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: var(--main-color);
+}
+.Range .RangeRanges {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0 10px;
+  margin-top: 5px;
+  color: var(--text-gray);
+  font-size: 13px;
+}
+.Range .RangeRanges span {
+  background-color: var(--second-color);
+  padding: 2px 8px;
+  border-radius: var(--border-radios);
+}
+.filterRanges .filterRangeBtn {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filterRanges .filterRangeCancel {
+  font-size: 13px;
+  padding: 4px 8px;
+  background-color: var(--second-color);
+  border: none;
+}
+.filterRanges .filterRangeAplay {
+  font-size: 13px;
+  padding: 4px 8px;
+  background-color: var(--for-color);
+  border: none;
+}
+.filterRanges .filterRangeAplay:active {
+  background-color: var(--for-color-plus);
+}
+.slider {
+  width: 80%;
+  height: 4px;
+  margin: 15px auto 15px;
+  border-radius: 10px;
+  background-color: var(--second-color);
+  cursor: pointer;
+}
+.slider .thumb {
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  background:  var(--second-color-plus);
+  border-radius: 50%;
+  border: 1px solid  var(--second-color-plus);
+  top: -5px;
+}
+.track-1 {
+  background-color: var(--second-color-plus);
+  height: 3px;
+}
